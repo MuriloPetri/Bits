@@ -1,0 +1,141 @@
+.questrial-regular {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body {
+    margin: 0;
+    font-family: 'Questrial', sans-serif;
+    overflow: hidden;
+    
+}
+
+header {
+    background-color: #011937;
+    color: white;
+    padding: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.logo img {
+    width: 95px;
+    height: 60px;
+    margin-left: 135px;
+    
+}
+.logo:hover{
+    opacity: 0.18;
+    transition: 0.4s;
+}
+
+.social-icons a{
+    text-decoration: none;
+    justify-content: space-evenly;
+    margin-top: 2022px;
+}
+
+.social-icons svg {
+    display: inline;
+    width: 60px;
+    height: 38px;
+    align-self: stretch;   
+    justify-content: space-evenly;
+    
+    
+}
+
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 50px 10%;
+    background-color: #ffffff;
+}
+
+.hero-text {
+    flex: 1;
+    margin-right: 50px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.hero-text h1 {
+    color: #011937;
+    font-family: 'Questrial', Sans-serif;
+    font-size: 47px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    text-align: initial;
+}
+
+.hero-text p {
+    color: #011937;
+    font-family: 'Questrial', Sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+    padding: 0;
+    transition: 0.5s;
+    line-height: 1;
+}
+
+.cta-button {
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Questrial', sans-serif;
+    margin-left: -4%;
+    background-color: #fca311;
+    color: #000000;
+    padding:  10px;
+    text-decoration: none;
+    font-weight:bold;
+    border-radius: 25px;
+    margin-right: 80%;
+    transition: 0.4s;
+
+}
+
+
+.hero-image img {
+    background-image: url(mulher_laptop.png);
+    width: 530px;
+    height: 700px;
+    margin: 0;
+    margin-left: 10%;
+    margin-top: -160px;
+    fill: #ffffff;
+    text-decoration: none;
+}
+
+.nav-menu a{
+    font-family: 'Questrial', sans-serif;
+    font-size: 16px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+.nav-menu a:hover{
+    color: #D4A94F;
+    transition: 0.5s;
+}
+
+
+.social-icons a:hover svg{
+    fill: #D4A94F;
+    transition: 0.4s;
+}
+
+.cta-button:hover{
+    transform: scale(1.08);
+    transition: 0.5s;
+    text-decoration: none;
+}
